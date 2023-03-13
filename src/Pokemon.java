@@ -44,6 +44,22 @@ public abstract class Pokemon {
         return name;
     }
 
+    public Type getBaseType() {
+        return baseType;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public Stat getAttack() {
+        return attack;
+    }
+
     // Setters
     public void setHp(double hp) {
         this.hp = hp;
@@ -56,5 +72,20 @@ public abstract class Pokemon {
     }
     public void setLevel(Integer level) {
         this.level = level;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setBaseType(Type baseType) {
+        this.baseType = baseType;
+    }
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+    public void setHeight(double height) {
+        this.height = height;
+    }
+    public void setAttack(Stat attack) {
+        this.attack = attack;
     }
 }

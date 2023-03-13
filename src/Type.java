@@ -1,12 +1,23 @@
 package src;
 
 public enum Type {
-    water,
-    grass,
-    fire,
-    electric,
-    dragon,
-    fairy,
-    poison,
+    Normal,
+    Fire,
+    Water,
+    Electric,
+    Grass,
+    Ice,
+    Fighting,
+    Poison,
+    Ground,
+    Flying,
+    Psychic,
+    Bug,
+    Rock,
+    Ghost,
+    Dragon,
+    Dark,
+    Steel,
+    Fairy
 }
 

@@ -10,17 +10,17 @@ public class doubleTypePokemon extends Pokemon {
 
     @Override
     public void sound() {
-        System.out.println("2");
+        System.out.println("The Pokemon makes a sound");
     }
 
     @Override
     public void eats() {
-        System.out.println("0");
+        System.out.println("The Pokemon is eating a berry");
     }
 
     @Override
     public void attacks() {
-        System.out.println("1");
+        System.out.println("The Pokmeon Attacks");
     }
 
     public Type getAdditionalType() {

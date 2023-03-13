@@ -1,20 +1,22 @@
-package src;
+/*
+package oldFiles;
 
-public class Pikachu extends Electric {
+public class Squirtle extends Water {
     private String name;
 
-    public Pikachu(String type, double xp, Integer level, double hp, double weight, double height, String name) {
+    public Squirtle(String type, double xp, Integer level, double hp, double weight, double height, String name) {
         super(type, xp, level, hp, weight, height);
         this.name = name;
     }
 
     @Override
     public void speaks() {
-        System.out.println("Pika Pika!}");
+        System.out.println("This pokemon doesn't speak.");
     }
+
     @Override
     public void eats() {
-        System.out.println("This Pokemon loves Oran-Berry's");
+        System.out.println("This Pokemon doesnt eat. It uses foto-synthesis");
     }
 
     @Override
@@ -22,8 +24,9 @@ public class Pikachu extends Electric {
         System.out.println("This Pokemon can Attack!");
         System.out.println("It knows these moves: ");
 
-        /*System.out.println("Choose between 1,2,3 and 4 wich move to use.");
-        Scanner scanner = new Scanner(System.in);*/
+        */
+/*System.out.println("Choose between 1,2,3 and 4 wich move to use.");
+        Scanner scanner = new Scanner(System.in);*//*
 
 
     }
@@ -38,3 +41,4 @@ public class Pikachu extends Electric {
         this.name = name;
     }
 }
+*/

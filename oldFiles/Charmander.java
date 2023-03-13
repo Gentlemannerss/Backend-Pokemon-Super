@@ -1,8 +1,11 @@
-package src;
+/*
+package oldFiles;
 
 public class Charmander extends Fire {
 
-    public Charmander(String type, double xp, Integer level, double hp, double weight, double height/*, String name*/) {
+    public Charmander(String type, double xp, Integer level, double hp, double weight, double height*/
+/*, String name*//*
+) {
         super(type, xp, level, hp, weight, height);
         this.name = "Charmander";
     }
@@ -22,8 +25,10 @@ public class Charmander extends Fire {
         System.out.println("This Pokemon can Attack!");
         System.out.println("It knows these moves: ");
 
-        /*System.out.println("Choose between 1,2,3 and 4 wich move to use.");
-        Scanner scanner = new Scanner(System.in);*/
+        */
+/*System.out.println("Choose between 1,2,3 and 4 wich move to use.");
+        Scanner scanner = new Scanner(System.in);*//*
+
 
 
     }
@@ -39,3 +44,4 @@ public class Charmander extends Fire {
         return "Name: " + getName() + "Type " + getType() + "Experience " + getXp() + "Level " + getLevel() + "Hitpoints " + getHp() + "Weight" + getWeight() + "Height" + getHeight();
     }
 }
+*/

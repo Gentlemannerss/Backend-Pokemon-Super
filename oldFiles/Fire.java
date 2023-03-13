@@ -1,14 +1,12 @@
-package src;
+/*
+package oldFiles;
 
-public abstract class Fire extends Pokemon {
+
+public abstract class Fire {
     public double weight;
     public double height;
 
-    public Fire(String type, double xp, Integer level, double hp, double weight, double height) {
-        super(type, xp, level, hp);
-        this.weight = weight;
-        this.height = height;
-    }
+
 
     public abstract void speaks();
 
@@ -31,3 +29,4 @@ public abstract class Fire extends Pokemon {
         this.height = height;
     }
 }
+*/

@@ -1,4 +1,7 @@
-package src;
+/*
+package oldFiles;
+
+import src.Pokemon;
 
 public abstract class Water extends Pokemon {
     public double weight;
@@ -28,3 +31,4 @@ public abstract class Water extends Pokemon {
     }
 
 }
+*/
