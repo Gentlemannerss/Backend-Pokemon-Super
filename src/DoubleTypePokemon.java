@@ -1,26 +1,26 @@
 package src;
 
-public class doubleTypePokemon extends Pokemon {
+public class DoubleTypePokemon extends Pokemon {
     private Type additionalType;
 
-    public doubleTypePokemon(String name, Type type, double xp, Integer level, double hp, Type additionalType, double weight, double height, Stat attack) {
+    public DoubleTypePokemon(String name, Type type, double xp, Integer level, double hp, Type additionalType, double weight, double height, Stat attack) {
         super(name, type, xp, level, hp, weight, height, attack);
         this.additionalType = additionalType;
     }
 
     @Override
     public void sound() {
-        System.out.println("The Pokemon makes a sound");
+        System.out.println("The Pokemon makes a cry");
     }
 
     @Override
     public void eats() {
-        System.out.println("The Pokemon is eating a berry");
+        System.out.println("The Pokemon is happy eating two different type's of berry");
     }
 
     @Override
     public void attacks() {
-        System.out.println("The Pokmeon Attacks");
+        System.out.println("The Pokmeon Attacks with two types.");
     }
 
     public Type getAdditionalType() {
